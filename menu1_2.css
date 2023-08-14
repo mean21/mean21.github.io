@@ -1,0 +1,625 @@
+@font-face {
+  font-family: 'kopub'url('https://drive.google.com/open?id=1Uv3asroIjnXSc3vw41r-zi7Px2qvKTGI') format('woff');
+}
+
+@media screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'kopub';
+  }
+
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100vh;
+  }
+
+  header {
+    width: 100%;
+
+  }
+  #big{
+    min-height: 100%;
+  }
+
+  .bg {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+  }
+
+  header .hlogo {
+    position: absolute;
+    max-width: 300px;
+    min-width: 299px;
+    top: 240px;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+
+  header .logo {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    max-width: 250px;
+    transform: translate(-50%, -50%);
+  }
+
+  header .mome {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 9vh;
+  }
+
+  header #ment {
+    display: none;
+  }
+
+  header hr {
+    display: none;
+  }
+
+  header #menu {
+    position: absolute;
+    top: 46%;
+    left: 58%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 0;
+  }
+
+  header #menu ul li {
+    display: inline-block;
+    margin-left: 7%;
+    text-align: center;
+  }
+
+  header #menu ul li a {
+    font-size: 2.5vw;
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+  }
+  section {
+    min-height: 800px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+
+  }
+
+  section #sebu {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0;
+    width: 75%;
+  }
+
+  section #sebu li {
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  section #sebu li a {
+    font-size: 3vw;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+  }
+
+  section p {
+    display: none;
+  }
+
+  section .lip {
+    display: none;
+  }
+
+  section .se {
+    display: none;
+  }
+
+  section .web{
+    display: none;
+  }
+
+  section hr{
+    display: none;
+  }
+
+ section #service{
+   position: absolute;
+   top: 1000px;
+   left: 50%;
+   width: 800px;
+   transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+
+ }
+
+ section .jang{
+   position: absolute;
+   top: 450px;
+   left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ section #service .lip2{
+     width: 350px;
+ }
+
+ section #service .se1{
+   width: 340px;
+ }
+
+
+  section .hidebt {
+    min-width: 50px;
+    max-width: 50px;
+    position: absolute;
+    top: 5%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topno {
+    position: absolute;
+    margin-top: 100px;
+    left: 96%;
+    width: 80px;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+  }
+  footer{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #303030;
+    top: 450px;
+ }
+
+  footer p {
+    width: 70%;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'kopub';
+  }
+
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100vh;
+  }
+
+  header {
+    width: 100%;
+
+  }
+  #big{
+    min-height: 100%;
+  }
+
+  .bg {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+  }
+
+  header .hlogo {
+    position: absolute;
+    max-width: 300px;
+    min-width: 299px;
+    top: 240px;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+
+  header .logo {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    max-width: 250px;
+    transform: translate(-50%, -50%);
+  }
+
+  header .mome {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 9vh;
+  }
+
+  header #ment {
+    display: none;
+  }
+
+  header hr {
+    display: none;
+  }
+
+  header #menu {
+    position: absolute;
+    top: 46%;
+    left: 58%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 0;
+  }
+
+  header #menu ul li {
+    display: inline-block;
+    margin-left: 7%;
+    text-align: center;
+  }
+
+  header #menu ul li a {
+    font-size: 2.5vw;
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+  }
+  section {
+    min-height: 800px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+
+  }
+
+  section #sebu {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0;
+    width: 75%;
+  }
+
+  section #sebu li {
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  section #sebu li a {
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+  }
+
+  section p {
+    display: none;
+  }
+
+  section .lip {
+    display: none;
+  }
+
+  section .se {
+    display: none;
+  }
+
+  section .web{
+    display: none;
+  }
+
+  section hr{
+    display: none;
+  }
+
+ section #service{
+   position: absolute;
+   top: 1000px;
+   left: 50%;
+   width: 800px;
+   transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+
+ }
+
+
+ section #service .lip2{
+   width: 350px;
+ }
+
+ section #service .se1{
+   width: 340px;
+ }
+ section .jang{
+   position: absolute;
+   top: 450px;
+   left: 50%;
+  transform: translate(-50%, -50%);
+ }
+  section .hidebt {
+    min-width: 50px;
+    max-width: 50px;
+    position: absolute;
+    top: 5%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topno {
+    position: absolute;
+    margin-top: 100px;
+    left: 96%;
+    width: 80px;
+    transform: translate(-50%, -50%);
+  }
+
+
+   footer{
+     position: relative;
+     width: 100%;
+     height: 130px;
+     background-color: #303030;
+     top: 450px;
+  }
+  footer p {
+    width: 70%;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+@media screen and (min-width:1025px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'kopub';
+  }
+
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+  }
+
+  #big{
+    max-width: 1680px;
+      position: relative;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+  }
+
+   .bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+  }
+
+  header .logo {
+    min-width: 250px;
+    max-width: 250px;
+    position: absolute;
+    left: 5%;
+  }
+
+  header .hlogo {
+    height: 99vh;
+    position: absolute;
+    top: 50%;
+    margin-left: 85%;
+    transform: translate(-50%, -50%);
+  }
+
+  header #ment {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+  }
+
+  header #ment .white {
+    color: white;
+    font-size: 40px;
+  }
+
+  header #ment p {
+    color: #0B132A;
+    font-size: 5rem;
+    margin-top: -4%;
+  }
+
+  header hr {
+    position: absolute;
+    top: 64%;
+    max-width: 600px;
+    min-width: 600px;
+    width: auto;
+    border: 0;
+    margin-top: 1%;
+    max-height: 5px;
+    min-height: 5px;
+    height: auto;
+    background-color: #0B132A;
+  }
+
+  header #menu {
+    position: absolute;
+    top: 6.5%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 0;
+    width: 75%;
+  }
+
+  header #menu ul li {
+    display: inline-block;
+    margin-left: 7%;
+    text-align: center;
+  }
+
+  header #menu ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+  }
+
+  header .mome {
+    display: none;
+  }
+
+  section {
+    min-height: 800px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+  }
+
+  section #sebu {
+    position: absolute;
+    top: 3%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    font-size: 0;
+    width: 75%;
+  }
+
+  section #sebu li {
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+  section #sebu li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+  }
+
+  section .title {
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    font-size: 30px;
+  }
+
+  section .sub_title {
+    position: absolute;
+    top: 110px;
+    margin-left: 36%;
+  }
+
+  section hr {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    margin-top: 1%;
+    width: 1050px;
+    border: 0;
+    height: 2px;
+    background-color: black;
+  }
+
+  section #service{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    width: 150px;
+    height: 500px;
+    display: inline-block;
+
+  }
+
+  section .jang {
+    min-width: 50%;
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+
+
+  }
+
+  section .web{
+    display: none;
+  }
+  section .lip2 {
+    display: none;
+  }
+
+  section .se1 {
+    display: none;
+  }
+
+  section .hidebt {
+    display: none;
+  }
+
+  .topno {
+    min-width: 80px;
+    max-width: 80px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    left: 94%;
+
+  }
+
+
+   footer{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #303030;
+    top: 250px;
+
+  }
+
+  footer p {
+    width: 70%;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+/* 닫힘 */
