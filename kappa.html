@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kappa korea</title>
+  <link rel="stylesheet" href="kappa.css">
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="pattern"></div>
+    <div class="nav">
+      <div class="logo"><img src="./img/kappalogo.png" alt=""></div>
+
+      <div class="menu">
+        <ul>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
+          <li>Accessories</li>
+          <li>Shoes</li>
+        </ul>
+      </div>
+      <div class="cart"><ion-icon name="cart"></ion-icon></div>
+    </div>
+    <div class="box-1 box"></div>
+    <div class="box-2 box"></div>
+    <div class="box-3 box"></div>
+
+    <div class="title-2">GUSTO COOL</div>
+
+    <div class="runner">
+      <img src="./img/kappa.png" alt="">
+    </div>
+
+    <div class="title-1">KAPPA</div>
+
+    <div class="content">
+      <p>Kappa’s heritage is an inexhaustible source of inspiration for contemporary lifestyle. There are details and styles that go beyond time and identify a taste and a way of being. The Authentic Label take inspiration from this iconic and valuable heritage to reinterpret it in a new way all the time. Total look collections are born from the rereading of the styles that made the history of the brand, able to reach and capture different cultures and references of our time. Kappa Authentic is a classic that constantly reinvented and imposes itself as a trend. Kappa is the Authentic sporting spirit that becomes a lifestyle.</p>
+
+      <button>Shop now</button>
+    </div>
+    <div class="media">
+      <ul>
+        <li><ion-icon name="logo-facebook"></ion-icon></li>
+        <li><ion-icon name="logo-instagram"></ion-icon></li>
+        <li><ion-icon name="logo-twitter"></ion-icon></li>
+        <li><ion-icon name="logo-youtube"></ion-icon></li>
+      </ul>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    TweenMax.to(".title-1",2,{
+      x: 30,
+      opacity: 1,
+      ease: Expo.easeInOut
+    });
+
+    TweenMax.to(".title-2",2,{
+      delay:0.5,
+      x: 10,
+      opacity: 1,
+      ease: Expo.easeInOut
+    });
+
+    TweenMax.from(".runner",2,{
+      delay: 0.8,
+      y:0,
+      opacity: 0,
+      ease: Expo.easeInOut
+    });
+
+    TweenMax.from(".box-1",4,{
+      delay: 1,
+      rotation: 200,
+      transformOrigin: "50% 50%",
+      x:-180,
+      opacity: 0,
+      ease: Expo.easeInOut
+    });
+
+    TweenMax.from(".box-2",4,{
+      delay: 1.2,
+      rotation: 90,
+      transformOrigin: "50% 50%",
+      x:-180,
+      opacity: 0,
+      ease: Expo.easeInOut
+    });
+
+    TweenMax.from(".box-3",4,{
+      delay: 1.2,
+      rotation: 180,
+      transformOrigin: "50% 50%",
+      x:-180,
+      opacity: 0,
+      ease: Expo.easeInOut
+    });
+
+    TweenMax.from(".pattern",2,{
+      delay: 1,
+      width:0,
+      opacity: 0,
+      ease: Expo.easeInOut
+    });
+
+
+        TweenMax.from(".logo",2,{
+          delay: 1,
+          y: 20,
+          opacity: 0,
+          ease: Expo.easeInOut
+        });
+
+        TweenMax.staggerFrom(".menu ul li",2,{
+          delay: 1.6,
+          y: 20,
+          opacity: 0,
+          ease: Expo.easeInOut
+        }, 0.1);
+
+        TweenMax.from(".cart",2,{
+          delay: 1.7,
+          y: 20,
+          opacity: 0,
+          ease: Expo.easeInOut
+        });
+
+        TweenMax.staggerFrom(".media ul li",2,{
+          delay: 2,
+          y: 20,
+          opacity: 0,
+          ease: Expo.easeInOut
+        }, 0.1);
+
+
+        TweenMax.from(".content",2,{
+          delay: 2.4,
+          y: 20,
+          opacity: 0,
+          ease: Expo.easeInOut
+        });
+
+        TweenMax.from(".content button",2,{
+          delay: 2.6,
+          y: 20,
+          opacity: 0,
+          ease: Expo.easeInOut
+        });
+
+
+
+
+
+  </script>
+</body>
+</html>
